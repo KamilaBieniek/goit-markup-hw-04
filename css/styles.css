@@ -25,7 +25,8 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .address-link {font-style: normal; text-decoration: none; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: #434455;}
 .address-link:hover,
 .address-link:focus { color: #404BBF;}
-.catchphrase {background-color: #2E2F42; padding: 188px 0;}
+.catchphrase { background-image: url(./images/office.jpg);
+    background-color: #2E2F42; padding: 188px 0; background-image;}
 .title {color: #FFFFFF;font-size: 56px; font-weight: 700; line-height: 1.07; letter-spacing: 0.02em; text-align: center;
     max-width: 496px; margin: auto;}
 .order-button {color:#FFFFFF; background-color: #4D5AE5; font-family: "Roboto", sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; cursor: pointer;
@@ -88,6 +89,11 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .logo-header,
 .logo-footer {font-family: "Raleway",sans-serif; font-weight: 800; font-size: 18px; color: #4d5ae5; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase; }
 .logo-header {margin-right: 76px;}
-.div-footer {padding-left: 76
-    px;}
+.div-footer {padding-left: 76px;}
 .span {color: #2E2F42;}
+.media-list {width: 232px; height: 40px;}
+.headline-social {color: #FFFFFF; font-size: 16px; font-weight: 500; line-height: 24px; letter-spacing: 0.32px;}
+.list-social {display: flex; gap: 16px;}
+.customers-list {display: flex; gap: 24px; padding-bottom: 72px;}
+.customers-section {padding-top: 156px;}
+.media-list {display: flex; gap: 24px;}
